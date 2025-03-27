@@ -24,7 +24,7 @@ int main(int argc, const char * argv[]) {
     // 특정 유형의 상수를 선언
     const int a = 10;
 
-    
+
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
    NSLog (@"hello world");
@@ -47,6 +47,12 @@ int main(int argc, const char * argv[]) {
 
   f = 70.0/3.0;
   NSLog(@"value of f : %f \n", f);
+
+
+  // for문 무한루프
+   for( ; ; ) {
+      NSLog(@"This loop will run forever.\n");
+   }
 
    [pool drain];
    return 0;

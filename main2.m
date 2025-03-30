@@ -63,5 +63,13 @@ int main() {
     //const - 상수 처리
     const int a = 10;
 
+    // self & super
+    // 현재 동작중인 객체 포인터 / 부모클래스에 대한 포인터
+    -(void) viewDidUnload
+    {
+        [super viewDidUnload]
+        self.name = nil;
+    }
+
     return 0;
 }

@@ -55,5 +55,13 @@ int main() {
     -(void) etcFunction: (id) arg;
     -(void) etc2: (int) y;
 
+    // 데이터 타입 수식자와 const
+    // long / long long / short / unsinged/ signed
+    long long int x = 1;
+    unsinged y = 1;
+
+    //const - 상수 처리
+    const int a = 10;
+
     return 0;
 }

@@ -89,3 +89,19 @@ int main() {
 
 
 
+// 함수 (메소드) 사용
+// 인스턴스가 객체 obj라면
+// [객체 메서드] 형식으로 호출
+/* ex
+ -(void) fun;
+ [obj fun] // 호출
+
+-(void) fun: (int) x;
+[obj fun : 5]; // 호출
+
+
+-(void) fun: (int) x second:(int) y;
+[obj fun :2 second:5]; // 호출
+ 파라미터 레이블을 활용하여 2개 이상의 파라미터 값 넣기
+*/
+

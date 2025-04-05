@@ -9,6 +9,11 @@
 // xcode일 시 다음 구문이 기본소스
 #import <Foundation/Foundation.h>
 
+
+// 함수의 정의
+// -(반환형) 이름: (매개변수 타입) 변수명1 *파라미터레이블*(두번쨰 파라미터부터는 무조건 이름을 지저) (타입) 변수명2
+-(int) max: (int) num1 andNum2:(int) num2;
+
 int main() {
     // 자동으로 메모리를 해제시켜줌
     @autoreleasepool{
@@ -78,3 +83,9 @@ int main() {
 
     return 0;
 }
+
+// 함수
+// 일반적인 인스턴스메소드는 맨 앞에 '-' 를 붙임 
+
+
+

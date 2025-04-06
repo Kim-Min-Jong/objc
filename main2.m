@@ -105,3 +105,39 @@ int main() {
  파라미터 레이블을 활용하여 2개 이상의 파라미터 값 넣기
 */
 
+
+
+/*
+    @property 수식어
+    변수의 동작을 미리 정함?
+
+    ex)
+    @property (strong, nonatomic) UITextField *text;
+
+
+    속성 1 - setter를 만들지 여부
+    readwrite - 읽기 쓰기 모두 가능 (디폴트)
+    @property (readwrite) UITextField *text;
+
+    readonly - 읽기만 가능, setter가 만들어지지 않음
+    @property (readonly) UITextField *text;
+
+
+    속성 2 - 생존 기간
+    strong - 객체에 소유권, retain, 보통 클래스 인스턴스에 사용 (디폴트)
+    @property (strong) UITextField *text;
+
+    weak - 소유권 없음, 대상 객체가 해제되면 nil이 됨 , 주소만 참조, assign 기본 자료형에 적합
+    @property (weak) UITextField *text;
+
+
+    속성 3 - 멀티스레드 고려
+    atomic - 프로퍼티에 접근할때 lock unlock을 반복 (디폴트)
+    멀티스레드 환경에서 공유되는 리소스에 사용용
+    @property (atomic) UITextField *text;
+
+    nonatomic - 일반적인 환경으로 빠름름
+    @property (nonatomic) UITextField *text;
+
+
+*/

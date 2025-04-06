@@ -6,10 +6,10 @@ int main() {
     Dog *happy = [[Dog alloc] init];
     // 메소드 호출
     [happy setAge: 5];
-    NSLog(@"%d",[happy getAge]);
+    NSLog(@"%d",[happy age]);
 
     [happy setAge: 2];
-    NSLog(@"%d",[happy getAge]);
+    NSLog(@"%d",[happy age]);
 
     [happy show];
 

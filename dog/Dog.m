@@ -6,7 +6,7 @@
     age = a;
 }
 
--(int) getAge
+-(int) age
 {
     return age;
 }
